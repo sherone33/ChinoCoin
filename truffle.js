@@ -16,7 +16,7 @@ module.exports = {
       // Hard-coded version - which works! (the other way - using the '.env' file - wasn't working):
       provider: new HDWalletProvider("candy maple cake sugar pudding cream honey rich smooth crumble sweet treat", "https://ropsten.infura.io/v3/991feee0349b43e6bdcbff10c338d84d"),
 
-      // Using CONST's defined in the ".env" file:
+      // Using CONST's defined in the ".env" file (this did NOT work!):
       //provider: new HDWalletProvider(process.env.MNENOMIC, "https://ropsten.infura.io/v3/" + process.env.ENDPOINT_KEY_ROPSTEN)
 
       network_id: 3,
